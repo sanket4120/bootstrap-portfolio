@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>sanket jadhav</title>
+  </head>
+  <body>
+    <!-- header -->
+    <ion-icon
+      name="arrow-up-outline"
+      class="position-fixed"
+      id="back-to-top"
+      onclick="topFunction()"
+    ></ion-icon>
+
+    <div class="container">
+      <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-4" href="#">SJ.</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span>
+                <img src="./assets/icon-hamburger.svg" alt="menu" />
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="me-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#header">Home</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#about">About Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container-fluid">
+          <div
+            class="hero d-flex flex-column justify-content-center align-items-sm-center"
+          >
+            <h4>Hi! 👋 I am Sanket</h4>
+            <h1 class="heading heading-primary">Front end Developer</h1>
+            <h4 class="wraptext-primary text-sm-center">
+              I am Front end Developer located in Nashik, India. Send me a
+              <a href="mailto:jadhavsanket4120@gmail.com">Mail</a> if you want
+              to contact me.
+            </h4>
+            <p class="bio mt-3">Scroll Down (👇) to know more!</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- skills -->
+
+      <div class="container-fluid text-sm-center space-bottom" id="skills">
+        <h1 class="heading heading-secondary">Take a look at my Skills.</h1>
+        <p class="wraptext-secondary">
+          These are my skills and this contains all the technologies and
+          programming languages that I have learnt until now. I am constantly
+          learning, therefore I may update this section more often.
+        </p>
+        <div class="skill-grid row g-3 mt-5">
+          <!-- html -->
+          <div class="col-sm-6 col-lg-4 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/html5.svg" alt="html-logo" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              HTML
+            </p>
+          </div>
+
+          <!-- css -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/css3.svg" alt="css-logo" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              CSS
+            </p>
+          </div>
+
+          <!-- javascript -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/logo-javascript.svg" alt="javascript-logo" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              javascript
+            </p>
+          </div>
+
+          <!-- Bootstrap -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/bootstrap-5-1.svg" alt="bootstrp-logo" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              Bootstrap
+            </p>
+          </div>
+
+          <!-- Node -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/nodejs-icon.svg" alt="node-icon" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              Nodejs
+            </p>
+          </div>
+
+          <!-- React -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/react-2.svg" alt="react-logo" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              React
+            </p>
+          </div>
+
+          <!-- Redux -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/redux.svg" alt="redux-logo" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              Redux
+            </p>
+          </div>
+
+          <!-- Mongodb -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/mongodb-icon-1.svg" alt="mongodb-logo" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              MongoDB
+            </p>
+          </div>
+
+          <!-- Git -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/git-icon.svg" alt="git-icon" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              Git
+            </p>
+          </div>
+
+          <!-- Github -->
+          <div class="col-md-4 col-sm-6 d-flex skill-wrapper">
+            <div class="d-flex align-items-center skill-image-container">
+              <img src="./assets/github-icon-1.svg" alt="github-icon" />
+            </div>
+            <p class="col-8 w-100 h-100 flex-fill d-flex align-items-center">
+              Github
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- projects -->
+
+      <div class="container-fluid text-sm-center space-bottom" id="projects">
+        <h1 class="heading heading-secondary">Checkout my work.</h1>
+        <p class="wraptext-secondary">
+          These are some of the Fictional projects that I worked on. I have
+          created some projects that help me understand more of the technology
+          that I use.
+        </p>
+        <div class="projects-grid mt-5">
+          <div class="row g-3">
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="./assets/work/devjobs.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Devjobs</h5>
+                  <p class="card-text">
+                    This is a job listing site which uses github jobs api to
+                    fetch jobs.
+                  </p>
+                  <div class="my-3">
+                    <span class="badge rounded-pill">React</span>
+                    <span class="badge rounded-pill">HTML</span>
+                    <span class="badge rounded-pill">CSS</span>
+                    <span class="badge rounded-pill">Api</span>
+                  </div>
+                  <div class="d-flex">
+                    <a
+                      href="https://leavitt-devjobs.netlify.app/"
+                      class="w-50 card-link btn btn-live"
+                      target="_blank"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/sanket4120/devjobs"
+                      class="w-50 card-link btn btn-src"
+                      target="_blank"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="./assets/work/techagency.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">TechAgency</h5>
+                  <p class="card-text">This is a responsive landing page.</p>
+                  <div class="my-3">
+                    <span class="badge rounded-pill">HTML</span>
+                    <span class="badge rounded-pill">CSS</span>
+                    <span class="badge rounded-pill">Javascript</span>
+                  </div>
+                  <div class="d-flex">
+                    <a
+                      href="https://sanket4120.github.io/TechAgency-landing-page/"
+                      class="w-50 card-link btn btn-live"
+                      target="_blank"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/sanket4120/TechAgency-landing-page"
+                      class="w-50 card-link btn btn-src"
+                      target="_blank"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="./assets/work/react-todo.jpg"
+                  alt="react-todo"
+                  class="card-img-top"
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">ToDo</h5>
+                  <p class="card-text">
+                    This is todo list application which uses browsers local
+                    storage to store todo's and it can filter todo's according
+                    to category [active, completed, all].
+                  </p>
+                  <div class="my-3">
+                    <span class="badge rounded-pill">React</span>
+                    <span class="badge rounded-pill">HTML</span>
+                    <span class="badge rounded-pill">CSS</span>
+                  </div>
+                  <div class="d-flex">
+                    <a
+                      href="https://reactapp-todo.netlify.app/"
+                      class="w-50 card-link btn btn-live"
+                      target="_blank"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/sanket4120/react-todo"
+                      class="w-50 card-link btn btn-src"
+                      target="_blank"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+              <div class="card">
+                <img
+                  src="./assets/work/notekeeper.jpg"
+                  alt="react-todo"
+                  class="card-img-top"
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">Notekeeper</h5>
+                  <p class="card-text">
+                    This is note keeping application which uses browsers local
+                    storage to store notes entered by user and it has options
+                    such as [Update, Filter, Delete].
+                  </p>
+                  <div class="my-3">
+                    <span class="badge rounded-pill">HTML</span>
+                    <span class="badge rounded-pill">CSS</span>
+                    <span class="badge rounded-pill">Javascript</span>
+                  </div>
+                  <div class="d-flex">
+                    <a
+                      href="https://keep-notekeeper.netlify.app/"
+                      class="w-50 card-link btn btn-live"
+                      target="_blank"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/sanket4120/NoteKeeper"
+                      class="w-50 card-link btn btn-src"
+                      target="_blank"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container-fluid text-sm-center space-bottom p-sm-5"
+        id="about"
+      >
+        <h1 class="heading heading-secondary">About Me.</h1>
+        <p class="wraptext-secondary" style="text-align: left">
+          I'm Sanket, self-taught developer specializing in front-end
+          development. I have always been passionate about creating
+          user-interfaces that speak, and are a pleasure to use, I like to
+          tackle challenges. I also like to explore and learn new technologies
+          and become a much better developer. Nowadays, I am learning about full
+          stack development. This helps me to keep expanding my skillset. I am
+          always open to collaboration. If you want to get in touch with me,
+          send me a <a href="mailto:jadhavsanket4120@gmail.com">Mail</a> and I
+          will get back with you soon.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-wrapper bg-white py-4">
+      <div class="container bg-white">
+        <footer class="container-fluid text-sm-center">
+          <h1 class="heading-secondary">Let's Work Together</h1>
+          <p>
+            I don't work for people, I collaborate with them. Sound like you?
+            Let’s talk!
+          </p>
+          <div class="contact-links">
+            <a
+              href="mailto:jadhavsanket4120@gmail.com"
+              class="text-dark"
+              target="_blank"
+              ><ion-icon name="mail-outline" class="fs-2 mx-2"></ion-icon
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sanketjadhav4120/"
+              class="text-dark"
+              target="_blank"
+            >
+              <ion-icon name="logo-linkedin" class="fs-2 mx-2"></ion-icon>
+            </a>
+            <a
+              href="https://github.com/sanket4120"
+              target="_blank"
+              class="text-dark"
+            >
+              <ion-icon name="logo-github" class="fs-2 mx-2"></ion-icon>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      //Get the button:
+      let mybutton = document.getElementById('back-to-top');
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = 'block';
+        } else {
+          mybutton.style.display = 'none';
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+  </body>
+</html>
